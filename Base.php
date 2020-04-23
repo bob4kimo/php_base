@@ -10,6 +10,4 @@ function getPostData() {
     return file_get_contents("php://input");
 }
 
-function echoPostData() {
-    echo getPostData();
-}
+
